@@ -65,3 +65,26 @@ public class StringOperations{
 
     }
 }
+
+//Calculator,java
+package pack3;
+public class Calculator{
+     public void multiply(int a, int b){
+        System.out.println("mul :"+a*b);
+    }
+        public void divide(int a,int b){
+            try{
+                if (b==0){
+                    throw new ArithmeticException("enter no greater than 0");
+                }
+                else{
+                            System.out.println("div :"+a/b);
+
+                }
+            }
+            catch(ArithmeticException e){
+                System.out.println(e);
+            }
+        }
+}
+
