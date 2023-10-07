@@ -138,7 +138,7 @@ public class ThrowUsedCarExceptions {
     public static void main(String[] args){
         
     Scanner obj = new Scanner(System.in);
-    UsedCar[] car = new UsedCar[2];
+    UsedCar[] car = new UsedCar[8];
     int i;
     List<String> list = new ArrayList<String>();
 
