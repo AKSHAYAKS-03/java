@@ -111,7 +111,6 @@ public class UsedCar {
         
   }
 }  
-///////////////////////////////////////////////////////////////
 
 class makeException extends Exception{
         makeException(String msg) {
